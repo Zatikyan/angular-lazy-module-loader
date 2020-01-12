@@ -1,0 +1,30 @@
+{
+  "name": "angular-lazy-module-loader",
+  "version": "1.0.0",
+  "description": "Lazy load Angular modules when and where you need it without Routing.",
+  "scripts": {
+    "packagr": "./node_modules/.bin/ng-packagr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zatikyan/angular-lazy-module-loader.git"
+  },
+  "author": "Armen Zatikyan (armen.zatikyan.1993@gmail.com)",
+  "keywords": [
+    "angular",
+    "lazy loading",
+    "module loader"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zatikyan/angular-lazy-module-loader/issues"
+  },
+  "homepage": "https://github.com/Zatikyan/angular-lazy-module-loader#readme",
+  "devDependencies": {
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "ng-packagr": "^5.7.1",
+    "typescript": "3.4.5"
+  }
+}
